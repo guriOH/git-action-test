@@ -9,4 +9,11 @@ public class AppTest {
 
     assertEquals(app.getInt(),1);
   }
+
+  @Test
+  public void testGetLong() {
+    App app = new App();
+
+    assertEquals(app.getLong(),1L);
+  }
 }
